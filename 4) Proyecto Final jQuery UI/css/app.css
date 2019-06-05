@@ -1,0 +1,181 @@
+
+body
+{
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+.contenedorPrincipal 
+{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+
+.areaJuego 
+{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 400px;
+}
+
+.contenidoDamasChinas 
+{
+	margin: 0 auto;
+	height: 100%;
+	width: 33.3%;
+}
+
+.contenedorJugador 
+{
+	position: relative;
+	height: 100%;
+	width: 33.3%;
+	display: inline-block;
+}
+
+.contenedorImagenJugador 
+{
+	width: 100%;
+	height: 35%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.player1-image
+{
+	width: 150px;
+	height: 150px;
+	border: solid 5px black;
+	border-radius: 50%;
+}
+
+.player2-image
+{
+	border: solid 5px green;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.contenedorTituloJugador 
+{
+	width: 100%;
+	height: 10%;
+}
+
+.contenedorMarcadorJugador 
+{
+	width: 100%;
+	height: 10%;
+}
+
+.marcadorJugador  
+{
+	font-size: 4vh;
+	color: black;
+	text-align: center;
+	margin-top: 4%;
+}
+
+#jugador1Marcador, #jugador2Marcador  
+{
+	font-size: 4vh;
+	color: black;
+}
+
+.contendorVictoria 
+{
+	width: 100%;
+	height: 10%;
+}
+
+#jugador1Gana #jugador2Gana  
+{
+	font-size: 5vh;
+	color:  black;
+}
+
+.tablero 
+{
+	margin: 0 auto;
+	background-color: white;
+	height: 420px;  
+	width: 420px;
+}
+
+.cuadradoTablero  
+{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.cuadradoRojo 
+{
+	background-color: white;
+}
+
+.cuadradoNegro  
+{
+	background-color: black;
+}
+
+.usarFicha 
+{
+	position: absolute;
+	border-radius: 40px;
+	height: 40px;
+	width: 40px;
+	left: 5%;
+	top: 5%;
+}
+.fichaRoja 
+{
+	background-color: #e62e00;
+	border: 3px solid #ff5c33;
+}
+
+.fichaNegra 
+{
+	background-color: #0059b3;
+	border: 3px solid #1a75ff;
+}
+
+.reyRojo 
+{
+	background-color: #cc0052;
+	border: 3px solid #ff0066;
+}
+
+.reyNegro 
+{
+	background-color: #4d94ff;
+	border: 3px solid #0066ff;
+}
+
+.highlight 
+{
+	border: 3px solid green;
+}
+
+.highlight2 
+{
+	border: 3px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
